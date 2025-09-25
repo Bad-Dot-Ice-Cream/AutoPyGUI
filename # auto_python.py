@@ -28,7 +28,7 @@ def stop_loop():
 
 # try:
 #     while True:
-#         x, y = pg.position()michael.sekol@mahoningctc.com
+#         x, y = pg.position()
 #         sys.stdout.write(f"\r(x, y) = ({x:4d}, {y:4d}")
 #         sys.stdout.flush()
 #         time.sleep(0.05)     # ~ 20 updates per second
@@ -91,3 +91,4 @@ def send_email(numberCycles):
                 stop_loop()
 
 send_email(numberCycles)
+
