@@ -30,7 +30,7 @@ def stop_loop():
 #     while True:
 #         x, y = pg.position()michael.sekol@mahoningctc.com
 #         sys.stdout.write(f"\r(x, y) = ({x:4d}, {y:4d}")
-#         sys.stdout.flush()AUTO/GUI Email From Cyruss Maiorana
+#         sys.stdout.flush()
 #         time.sleep(0.05)     # ~ 20 updates per second
 
 # except KeyboardInterrupt:
@@ -89,4 +89,5 @@ def send_email(numberCycles):
                 time.sleep(5)
         elif numberCycles == 0:
                 stop_loop()
+
 send_email(numberCycles)
